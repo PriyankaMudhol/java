@@ -1,3 +1,18 @@
+//Array is a datatype
+//Store the reference
+//datatype[] refname
+//Two ways to init array , literal or new keyword
+//Array is stored in instance memory
+//size of array is fixed
+//element is ref stored in array
+//index start with zero, incremet1
+//length is variable, total elements in array
+
+//Task :
+1. Store 15 emails in array and print all elements from array
+2. Store 20 characters in array and print all elements from array
+3. Store 10 sweets in array and print all elements from array
+
 class EmailRunner
 {
 	public static void main (String[ ] artgs)

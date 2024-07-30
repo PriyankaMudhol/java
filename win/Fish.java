@@ -1,13 +1,15 @@
-class Fish{
-public static void main (String[] args)
+class Fish
 {
-
- System.out.println("running main in fish");
- int noofchairs=100;
-System.out.println("noofchairs:"+noofchairs);
-float g=5.98f;
-System.out.println("g:"+g);
-
-
-}}
-
+	String name;
+	String type;
+	
+	Fish(String nameLocal , String typeLocal)
+	{
+		System.out.println("Created board with name, type");
+		System.out.println("name :"+name);
+		System.out.println("type :"+type);
+		System.out.println("Name Local :"+nameLocal);
+		System.out.println("type Local :"+typeLocal);
+		
+	}
+	}
