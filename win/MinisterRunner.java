@@ -1,8 +1,8 @@
-class Assistant
+class MinisterRunner
 {
-	public static void help()
+	public static void main(String[] args)
 	{
-		System.out.println("help");
+		System.out.println(" main");
+		Minister.serve();
 	}
 }
-

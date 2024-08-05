@@ -1,6 +1,6 @@
 class NailPaintRunner{
 	public static void main(String[] medicines){ 
-	if(medicines.length==4) 
+	if(medicines.length==4)
 		{
 			
 			String name =medicines[0];

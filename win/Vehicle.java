@@ -1,19 +1,7 @@
-abstract class Vehicle{
-     public static void display()
-	 {
-		 
-	 }
-	 static void accident()
-	 {
-		 
-	 }
-	 public void scratch()
-	 {
-		 
-	 }
-	  void speed()
-	  {
-		  
-	  }
-	  abstract void broke();
+class Vehicle
+{
+	public static void transport()
+	{
+		System.out.println("transport");
+	}
 }
