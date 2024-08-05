@@ -5,6 +5,9 @@ class Cap {
     
     Cap(String colorLocal, String sizeLocal, String materialLocal) {
         
+		color=colorLocal;
+		size=sizeLocal;
+		material=materialLocal;
         System.out.println("Created Cap with color, size, material");
         System.out.println("color: " + color);
         System.out.println("size: " + size);

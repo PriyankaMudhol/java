@@ -5,6 +5,8 @@ class Fish
 	
 	Fish(String nameLocal , String typeLocal)
 	{
+		name=nameLocal;
+		type=typeLocal;
 		System.out.println("Created board with name, type");
 		System.out.println("name :"+name);
 		System.out.println("type :"+type);

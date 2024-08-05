@@ -5,6 +5,10 @@ class Board {
     
     Board(String typeLocal, String sizeLocal, String materialLocal) {
        
+	    type=typeLocal;
+	    size=sizeLocal;
+		material=materialLocal;
+		
         System.out.println("Created Board with type, size, material");
         System.out.println("type: " + type);
         System.out.println("size: " + size);

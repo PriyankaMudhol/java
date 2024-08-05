@@ -4,6 +4,9 @@ class Gold {
     String value;
     
     Gold(String weightLocal, String purityLocal, String valueLocal) {
+		weight=weightLocal;
+		purity=purityLocal;
+		value=valueLocal;
        
         System.out.println("Created Gold with weight, purity, value");
         System.out.println("weight: " + weight);

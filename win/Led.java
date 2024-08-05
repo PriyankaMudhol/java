@@ -5,6 +5,10 @@ class Led {
     
     Led(String colorLocal, String intensityLocal, String powerLocal) {
         
+		color=colorLocal;
+		intensity=intensityLocal;
+		power=powerLocal;
+		
         System.out.println("Created Led with color, intensity, power");
         System.out.println("color: " + color);
         System.out.println("intensity: " + intensity);

@@ -5,6 +5,8 @@ class Lens
 	
 	Lens(String focal_lengthLocal , String apertureLocal)
 	{
+		focal_length=focal_lengthLocal;
+		aperture=apertureLocal;
 		System.out.println("Created Lens with focal_length, aperture");
 		System.out.println("focal_length :"+focal_length);
 		System.out.println("aperture   :"+aperture);

@@ -5,6 +5,9 @@ class PrintingMachine
 	
 	PrintingMachine(String brandLocal , String speedLocal)
 	{
+		brand=brandLocal;
+		speed=speedLocal;
+		
 		System.out.println("Created PrintingMachine with brand, speed");
 		System.out.println("brand :"+brand);
 		System.out.println("speed   :"+speed);

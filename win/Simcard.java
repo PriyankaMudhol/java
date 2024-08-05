@@ -5,6 +5,10 @@ class Simcard {
     
     Simcard(String carrierLocal, String numberLocal, String planLocal) {
         
+		carrier=carrierLocal;
+		number=numberLocal;
+		plan=planLocal;
+		
         System.out.println("Created Simcard with carrier, number, plan");
         System.out.println("carrier: " + carrier);
         System.out.println("number: " + number);

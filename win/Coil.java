@@ -5,6 +5,8 @@ class Coil
 	
 	Coil(String materialLocal , int turnsLocal)
 	{
+		material=materialLocal;
+		turns=turnsLocal;
 		System.out.println("Created Coil with material, turns");
 		System.out.println("material :"+material);
 		System.out.println("turns   :"+turns);
