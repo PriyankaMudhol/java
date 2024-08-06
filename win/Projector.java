@@ -4,7 +4,7 @@ class Projector {
     String color;
     double weight;
 
-    public void projector()
+    public void project()
 	{
 		System.out.println("company :"+company);
 		System.out.println("type :"+type);

@@ -4,7 +4,7 @@ class Chocolate {
     String flavour;
     String size;
 
-	public void choco()
+	public void chocy()
 	{
 		System.out.println("brand :"+brand);
 		System.out.println("price :"+price);
@@ -36,9 +36,9 @@ class Chocolate {
     }
 	Chocolate() {
         this.brand = "Cadbury";
-        this.price = 1.99;
+        this.price = 21.99;
         this.flavour = "Milk Chocolate";
-        this.size = "Medium";
+        this.size = "Small";
     }
 	static Chocolate createChocolate(String brand, double price, String flavour, String size) 
 	{

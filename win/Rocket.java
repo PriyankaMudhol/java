@@ -4,7 +4,7 @@ class Rocket {
     int fuelCapacity;
     int noOfThrusters;
 
-    public void enoOnd()
+    public void print()
 	{
 		System.out.println("country :"+country);
 		System.out.println("speed :"+speed);
@@ -35,9 +35,9 @@ class Rocket {
     }
 	Rocket() {
         this.country = "USA";
-        this.speed = 25000;
-        this.fuelCapacity = 100000;
-        this.noOfThrusters = 4;
+        this.speed = 265000;
+        this.fuelCapacity = 200000;
+        this.noOfThrusters = 5;
     }
 
     

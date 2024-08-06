@@ -15,7 +15,7 @@ class Speaker {
     double cost;
     int output;
 
-	public void wtever()
+	public void display()
 	{
 		System.out.println("brand :"+brand);
 		System.out.println("size :"+size);
@@ -47,10 +47,10 @@ class Speaker {
     }
 	
 	 Speaker() {
-        this.brand = "Sony";
+        this.brand = "Philips";
         this.size = "Medium";
-        this.cost = 99.99;
-        this.output = 50;
+        this.cost = 105.99;
+        this.output = 90;
     }
 
     static Speaker createSpeaker(String brand, String size, double cost, int output)

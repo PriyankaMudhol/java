@@ -20,9 +20,9 @@ class AllBoot
         speaker3.setCost(99.99);
         speaker3.setOutput(60);
 
-        speaker1.wtever();
-        speaker2.wtever();
-        speaker3.wtever();
+        speaker1.display();
+        speaker2.display();
+        speaker3.display();
 
        
         Rocket rocket1 = new Rocket();
@@ -43,9 +43,9 @@ class AllBoot
         rocket3.setFuelCapacity(180000);
         rocket3.setNoOfThrusters(5);
 
-        rocket1.enoOnd();
-        rocket2.enoOnd();
-        rocket3.enoOnd();
+        rocket1.print();
+        rocket2.print();
+        rocket3.print();
 
         
         Chocolate chocolate1 = new Chocolate();
@@ -66,9 +66,9 @@ class AllBoot
         chocolate3.setFlavour("White Chocolate");
         chocolate3.setSize("Small");
 
-        chocolate1.choco();
-        chocolate2.choco();
-        chocolate3.choco();
+        chocolate1.chocy();
+        chocolate2.chocy();
+        chocolate3.chocy();
 
         
         Projector projector1 = new Projector();
@@ -89,9 +89,9 @@ class AllBoot
         projector3.setColor("Gray");
         projector3.setWeight(2.8);
 
-        projector1.projector();
-        projector2.projector();
-        projector3.projector();
+        projector1.project();
+        projector2.project();
+        projector3.project();
 
         
         Paper paper1 = new Paper();
@@ -112,8 +112,8 @@ class AllBoot
         paper3.setQuality("Low");
         paper3.setColor("Blue");
 
-        paper1.book();
-        paper2.book();
-        paper3.book();
+        paper1.books();
+        paper2.books();
+        paper3.books();
     }
 }

@@ -4,7 +4,7 @@ class Paper {
     String quality;
     String color;
 
-    public void book()
+    public void books()
 	{
 		System.out.println("thickness :"+thickness);
 		System.out.println("size :"+size);
@@ -36,8 +36,8 @@ class Paper {
 	Paper()
 	{
         this.thickness = 0.05;
-        this.size = "A4";
-        this.quality = "High";
+        this.size = "A3";
+        this.quality = "medium";
         this.color = "White";
     }
 
