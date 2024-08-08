@@ -1,8 +1,2 @@
-class Assistant
-{
-	public static void help()
-	{
-		System.out.println("help");
-	}
-}
-
+//CapitalCity: name,population
+//Declare a method to print details
